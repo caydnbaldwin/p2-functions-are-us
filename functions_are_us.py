@@ -1,3 +1,5 @@
+# put your functions and new code here
+
 # main function, begin here
 def main():
     pass
