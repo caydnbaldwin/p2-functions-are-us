@@ -1,6 +1,4 @@
-# write all functions below this line, but above the main function
-
-# main function, logic begins here, all functions should be above this line
+# main function, begin here
 def main():
     pass
 
