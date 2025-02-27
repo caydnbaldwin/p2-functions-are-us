@@ -1,11 +1,12 @@
 # p2-functions-are-us
-As a group and using Git/Github, write a program that plays the women’s soccer season as defined in Assignment 4. Modify the code to use functions as defined below. You can do more than what is required.
 
 ## Functions
 
 As a group and using Git/Github, write a program that plays the women’s soccer season as defined in Assignment 4. Modify the code to use functions as defined below. You can do more than what is required.
 
 Everyone works on a Main function that calls other functions. Create the following functions:
+
+NOTE: We want at least 5 functions and we definitely want the functions that get the home team name and the opponent name (removing the home team name). After that, make sure the game works. You can use your creativity to get this completed.
 
 1. Display an introduction to the game explaining rules and prompt for their name and display that in the welcome message. Return the name to the main program and store it in variable so it can be used throughout the program.
 
