@@ -6,7 +6,7 @@
 import random
 
 # Receive `HomeTeam` and `VisitingTeam` in that order 
-def winLoseSim(sHomeTeam, sVisitingTeam):
+def winLoseSim():
     # Make the initial variables
     iHomeScore = random.randint(1,2)
     iVisitorScore = random.randint(1,2)
