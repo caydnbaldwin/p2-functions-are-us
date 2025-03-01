@@ -1,5 +1,5 @@
 # Ryan Bartholomew
-# Function 4: Run game with random scores and return a W or L (no ties)
+# Function 4
 # Play the game receiving both team names. Generate random scores without ties. Return W or L.
 
 # Import random

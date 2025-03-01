@@ -1,15 +1,12 @@
-# import pytest
-# import f1_introduction
-
+import f1_introduction
 import pytest
-from f1_introduction import display_intro
 
 def test_f1_display_intro_introduction(monkeypatch, capsys):
     # Mock input to simulate user entering their name
     monkeypatch.setattr('builtins.input', lambda _: "TestUser")
 
     # Call the function
-    display_intro()
+    f1_introduction.display_intro()
 
     # Capture the output
     captured = capsys.readouterr()
@@ -26,7 +23,7 @@ def test_f1_display_intro_username(monkeypatch, capsys):
     monkeypatch.setattr('builtins.input', lambda _: "TestUser")
 
     # Call the function
-    display_intro()
+    f1_introduction.display_intro()
 
     # Capture the output
     captured = capsys.readouterr()
@@ -39,7 +36,7 @@ def test_f4_display_intro_return(monkeypatch):
     monkeypatch.setattr('builtins.input', lambda _: "TestUser")
 
     # Call the function and capture the return value
-    user_name = display_intro()
+    user_name = f1_introduction.display_intro()
 
     # Verify the return value
     assert user_name == "TestUser"

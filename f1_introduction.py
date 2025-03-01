@@ -1,5 +1,5 @@
-#Waylan Abbott
-#Function 1
+# Waylan Abbott
+# Function 1
 # Displays an introduction to the game explaining rules and prompt for their name and display that in the welcome message
 
 def display_intro():
