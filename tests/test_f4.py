@@ -1,5 +1,5 @@
-import pytest
 import f4_wins_losses
+import pytest
 
 def test_f4_winLoseSim_W(monkeypatch):
     # force home team win
