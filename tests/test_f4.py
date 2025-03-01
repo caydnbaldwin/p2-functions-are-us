@@ -1,7 +1,7 @@
 import pytest
 import f4_wins_losses
 
-def test_winLoseSim_W(monkeypatch):
+def test_f4_winLoseSim_W(monkeypatch):
     # force home team win
     scores = [5, 3]
     def mock_randint(start, end):
@@ -10,7 +10,7 @@ def test_winLoseSim_W(monkeypatch):
     result = f4_wins_losses.winLoseSim()
     assert result == 'W', f"Expected 'W' but got {result}"
 
-def test_winLoseSim_L(monkeypatch):
+def test_f4_winLoseSim_L(monkeypatch):
     # force home team win
     scores = [3, 5]
     def mock_randint(start, end):
