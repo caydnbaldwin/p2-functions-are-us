@@ -11,11 +11,16 @@ def choose_sports_team(previous_choice=None):
         available_teams.remove(previous_choice)
 
     # Display menu
+    print()
+    print("Teams:")
     for i, team in enumerate(available_teams):
         print(f"[{i + 1}] {team}")
 
     # Get user input
-    selected_team = int(input("Please select from the list by entering the desired team's number (i.e., '1'): "))
+    if len(available_teams) == 5:
+        selected_team = int(input("\nPlease select from the list by entering the desired team's number (1, 2, 3, 4, or 5): "))
+    else:
+        selected_team = int(input("\nPlease select from the list by entering the desired team's number (1, 2, 3, or 4): "))
 
     # Return selected team
     return available_teams[selected_team - 1]
