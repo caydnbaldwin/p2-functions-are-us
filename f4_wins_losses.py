@@ -6,7 +6,7 @@
 import random
 
 # Receive `HomeTeam` and `VisitingTeam` in that order 
-def winLoseSim():
+def winLoseSim(home_team, away_team):
     # Make the initial variables
     iHomeScore = random.randint(1,2)
     iVisitorScore = random.randint(1,2)
@@ -22,9 +22,9 @@ def winLoseSim():
 
     # Return a W or an L
     if iHomeScore > iVisitorScore:
-        return "W"
+        return "W", iHomeScore, iVisitorScore
     else:
-        return "L"
+        return "L", iHomeScore, iVisitorScore
 
 
 
