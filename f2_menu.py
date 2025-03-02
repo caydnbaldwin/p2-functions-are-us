@@ -9,4 +9,3 @@ def display_menu():
     user_choice = input ("\nPlease select from the following options coach (1, 2, 3, or 4): ")
     return user_choice
 
-display_menu()
